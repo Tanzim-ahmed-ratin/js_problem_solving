@@ -17,11 +17,19 @@
 
 // Use comments to describe the correct data type of the following variables:
 
-let length = 16; // data type: number
-let lastName = "Johnson"; // data type: string
+// let length = 16; // data type: number
+// let lastName = "Johnson"; // data type: string
 
-const x = {
-  firstName: "John",  
-  lastName: "Doe"
-};    // data type: object
+// const x = {
+//   firstName: "John",  
+//   lastName: "Doe"
+// };    // data type: object
 
+//Execute the function named myFunction.
+
+function myFunction() {
+    alert("Hello World!");
+  }
+  // Call the function name
+  myFunction();
+  
