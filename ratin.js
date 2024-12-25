@@ -34,8 +34,15 @@
 //   myFunction();
   
 //Create an object called person 
-let person = {
-    name: "John",
-    age: 50
-  };
-alert(person.name + " is " + person.age);
+
+// let person = {
+//     name: "John",
+//     age: 50
+//   };
+// alert(person.name + " is " + person.age);
+
+// The <button> element should do something when someone clicks on it. Try to fix it!
+
+document.getElementById('myButton').addEventListener('click', function() {
+    alert('clickable');
+  });
