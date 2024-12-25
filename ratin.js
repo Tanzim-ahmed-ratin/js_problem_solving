@@ -61,15 +61,27 @@
 
 // Use the correct Math method to create a random number.
 
-const Math = 5 * 6;
-console.log(Math);
+// const Math = 5 * 6;
+// console.log(Math);
 
-// Use the correct Math method to return the largest number of 10 and 20.
+// // Use the correct Math method to return the largest number of 10 and 20.
 
-let x = Math.max(10, 20);
-console.log(x);
+// let x = Math.max(10, 20);
+// console.log(x);
 
-// Use the correct Math method to get the square root of 9.
+// // Use the correct Math method to get the square root of 9.
 
-const a = Math.sqrt(9);
-console.log(a);
+// const a = Math.sqrt(9);
+// console.log(a);
+
+// Choose the correct comparison operator to alert true, when x is greater than y
+
+let x = 5;
+let y = 1;
+
+alert(x > y)
+
+// the correct conditional 
+
+let age = 10;
+alert(age < 18 ? "Too young" : "Old enough");
