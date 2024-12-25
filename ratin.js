@@ -49,12 +49,27 @@
 
 //  Alert the number of items in an array, using the correct Array property:
 
-const cars = ["Volvo", "Jeep", "Mercedes"];
-alert(cars.length);
+// const cars = ["Volvo", "Jeep", "Mercedes"];
+// alert(cars.length);
 
 
-// Change the first item of Brand to "Ford".
+// // Change the first item of Brand to "Ford".
 
-const Brand = ["Volvo", "Jeep", "Mercedes"];
-Brand[0] = "Ford";
-console.log(Brand);
+// const Brand = ["Volvo", "Jeep", "Mercedes"];
+// Brand[0] = "Ford";
+// console.log(Brand);
+
+// Use the correct Math method to create a random number.
+
+const Math = 5 * 6;
+console.log(Math);
+
+// Use the correct Math method to return the largest number of 10 and 20.
+
+let x = Math.max(10, 20);
+console.log(x);
+
+// Use the correct Math method to get the square root of 9.
+
+const a = Math.sqrt(9);
+console.log(a);
