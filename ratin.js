@@ -27,9 +27,15 @@
 
 //Execute the function named myFunction.
 
-function myFunction() {
-    alert("Hello World!");
-  }
-  // Call the function name
-  myFunction();
+// function myFunction() {
+//     alert("Hello World!");
+//   }
+//   // Call the function name
+//   myFunction();
   
+//Create an object called person 
+let person = {
+    name: "John",
+    age: 50
+  };
+alert(person.name + " is " + person.age);
