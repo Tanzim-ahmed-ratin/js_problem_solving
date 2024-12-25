@@ -43,6 +43,18 @@
 
 // The <button> element should do something when someone clicks on it. Try to fix it!
 
-document.getElementById('myButton').addEventListener('click', function() {
-    alert('clickable');
-  });
+// document.getElementById('myButton').addEventListener('click', function() {
+//     alert('clickable');
+//   });
+
+//  Alert the number of items in an array, using the correct Array property:
+
+const cars = ["Volvo", "Jeep", "Mercedes"];
+alert(cars.length);
+
+
+// Change the first item of Brand to "Ford".
+
+const Brand = ["Volvo", "Jeep", "Mercedes"];
+Brand[0] = "Ford";
+console.log(Brand);
