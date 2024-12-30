@@ -130,9 +130,18 @@
 
 // Write a function to get the first element of an array. The function should take a single argument, which is the array.
 
-function getFirstElement(arr) {
-    return arr[0];
+// function getFirstElement(arr) {
+//     return arr[0];
+//   }
+  
+//   console.log(getFirstElement([10, 20, 30]));
+//   console.log(getFirstElement(["x", "y", "z"]));
+
+// Write a function to check if an array is empty. The function should take a single argument, which is the array.
+
+function isArrayEmpty(arr) {
+    return arr.length === 0;
   }
   
-  console.log(getFirstElement([10, 20, 30]));
-  console.log(getFirstElement(["x", "y", "z"]));
+  console.log(isArrayEmpty([]));
+  console.log(isArrayEmpty([1, 2, 3]))
