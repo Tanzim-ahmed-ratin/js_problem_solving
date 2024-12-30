@@ -148,10 +148,19 @@
 
 // Write a function to return the factorial of a number. The function should take a single argument, which is the number.
 
-function factorialize(num) {
-    if (num === 0 || num === 1) return 1;
-    return num * factorialize(num - 1);
+// function factorialize(num) {
+//     if (num === 0 || num === 1) return 1;
+//     return num * factorialize(num - 1);
+//   }
+  
+//   console.log(factorialize(5));
+//   console.log(factorialize(7));
+
+// Write a function to reverse a string. The function should take a single argument, which is the string to reverse.
+
+function reverseString(str) {
+    return str.split('').reverse().join('');
   }
   
-  console.log(factorialize(5));
-  console.log(factorialize(7));
+  console.log(reverseString("hablu"));
+  console.log(reverseString("gablu"));
