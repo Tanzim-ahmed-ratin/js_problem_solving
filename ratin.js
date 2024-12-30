@@ -95,8 +95,16 @@
 //   console.log(celsiusToFahrenheit(25));
 
 // Write a function to check if a number is even. The function should take a single argument, which is the number to check.
-function isEven(num) {
-    return num % 4 === 0;
+// function isEven(num) {
+//     return num % 4 === 0;
+//   }
+//   console.log(isEven(2));
+//   console.log(isEven(7));
+
+//Write a function to sum two numbers. The function should take two arguments, which are the numbers to sum.
+
+function findSmallestNum(arr) {
+    return Math.min(...arr);
   }
-  console.log(isEven(2));
-  console.log(isEven(7));
+  console.log(findSmallestNum([3, 5, 1, 9]));
+  console.log(findSmallestNum([-1, -5, 0, 10]));
