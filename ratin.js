@@ -158,9 +158,18 @@
 
 // Write a function to reverse a string. The function should take a single argument, which is the string to reverse.
 
-function reverseString(str) {
-    return str.split('').reverse().join('');
+// function reverseString(str) {
+//     return str.split('').reverse().join('');
+//   }
+  
+//   console.log(reverseString("hablu"));
+//   console.log(reverseString("gablu"));
+
+// Write a function to convert a string to lowercase. The function should take a single argument, which is the string to convert.
+
+function toLowerCase(str) {
+    return str.toLowerCase();
   }
   
-  console.log(reverseString("hablu"));
-  console.log(reverseString("gablu"));
+  console.log(toLowerCase("hablu programer")); // "hello world"
+  console.log(toLowerCase("tanzim"));
