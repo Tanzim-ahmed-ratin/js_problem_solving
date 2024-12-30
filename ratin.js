@@ -103,8 +103,27 @@
 
 //Write a function to sum two numbers. The function should take two arguments, which are the numbers to sum.
 
-function findSmallestNum(arr) {
-    return Math.min(...arr);
+// function findSmallestNum(arr) {
+//     return Math.min(...arr);
+//   }
+//   console.log(findSmallestNum([3, 5, 1, 9]));
+//   console.log(findSmallestNum([-1, -5, 0, 10]));
+
+
+// Write a function to count the number of vowels in a string. The function should take a single argument, which is the string to search.
+
+function countVowels(str) {
+    let vowels = 'aeiouAEIOU';
+    let count = 0;
+  
+    for (let char of str) {
+      if (vowels.includes(char)) {
+        count++;
+      }
+    }
+  
+    return count;
   }
-  console.log(findSmallestNum([3, 5, 1, 9]));
-  console.log(findSmallestNum([-1, -5, 0, 10]));
+  
+  console.log(countVowels("hello world"));
+  console.log(countVowels("Javascript"));
