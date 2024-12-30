@@ -76,12 +76,20 @@
 
 // Choose the correct comparison operator to alert true, when x is greater than y
 
-let x = 5;
-let y = 1;
+// let x = 5;
+// let y = 1;
 
-alert(x > y)
+// alert(x > y)
 
-// the correct conditional 
+// // the correct conditional 
 
-let age = 10;
-alert(age < 18 ? "Too young" : "Old enough");
+// let age = 10;
+// alert(age < 18 ? "Too young" : "Old enough");
+
+// that is the function to convert Celsius to Fahrenheit
+
+function celsiusToFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
+  }
+  console.log(celsiusToFahrenheit(0));
+  console.log(celsiusToFahrenheit(25));
