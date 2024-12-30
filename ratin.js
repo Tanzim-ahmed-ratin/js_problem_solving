@@ -88,8 +88,15 @@
 
 // that is the function to convert Celsius to Fahrenheit
 
-function celsiusToFahrenheit(celsius) {
-    return (celsius * 9/5) + 32;
+// function celsiusToFahrenheit(celsius) {
+//     return (celsius * 9/5) + 32;
+//   }
+//   console.log(celsiusToFahrenheit(0));
+//   console.log(celsiusToFahrenheit(25));
+
+// Write a function to check if a number is even. The function should take a single argument, which is the number to check.
+function isEven(num) {
+    return num % 4 === 0;
   }
-  console.log(celsiusToFahrenheit(0));
-  console.log(celsiusToFahrenheit(25));
+  console.log(isEven(2));
+  console.log(isEven(7));
