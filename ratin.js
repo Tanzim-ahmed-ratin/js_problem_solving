@@ -112,18 +112,27 @@
 
 // Write a function to count the number of vowels in a string. The function should take a single argument, which is the string to search.
 
-function countVowels(str) {
-    let vowels = 'aeiouAEIOU';
-    let count = 0;
+// function countVowels(str) {
+//     let vowels = 'aeiouAEIOU';
+//     let count = 0;
   
-    for (let char of str) {
-      if (vowels.includes(char)) {
-        count++;
-      }
-    }
+//     for (let char of str) {
+//       if (vowels.includes(char)) {
+//         count++;
+//       }
+//     }
   
-    return count;
+//     return count;
+//   }
+  
+//   console.log(countVowels("hello world"));
+//   console.log(countVowels("Javascript"));
+
+// Write a function to get the first element of an array. The function should take a single argument, which is the array.
+
+function getFirstElement(arr) {
+    return arr[0];
   }
   
-  console.log(countVowels("hello world"));
-  console.log(countVowels("Javascript"));
+  console.log(getFirstElement([10, 20, 30]));
+  console.log(getFirstElement(["x", "y", "z"]));
