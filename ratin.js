@@ -176,9 +176,18 @@
 
 // Write a function to find the length of a string. The function should take a single argument, which is the string.
 
-function stringLength(str) {
-  return str.length;
+// function stringLength(str) {
+//   return str.length;
+// }
+
+// console.log(stringLength("hello"));
+// console.log(stringLength("world"));
+
+//  Write a function to merge two arrays. The function should take two arguments, which are the arrays to merge.
+
+function mergeArrays(arr1, arr2) {
+  return arr1.concat(arr2);
 }
 
-console.log(stringLength("hello"));
-console.log(stringLength("world"));
+console.log(mergeArrays([1, 2, 3], [4, 5, 6]));
+console.log(mergeArrays(["a", "b"], ["c", "d"]));
