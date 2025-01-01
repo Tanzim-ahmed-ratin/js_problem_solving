@@ -185,9 +185,18 @@
 
 //  Write a function to merge two arrays. The function should take two arguments, which are the arrays to merge.
 
-function mergeArrays(arr1, arr2) {
-  return arr1.concat(arr2);
+// function mergeArrays(arr1, arr2) {
+//   return arr1.concat(arr2);
+// }
+
+// console.log(mergeArrays([1, 2, 3], [4, 5, 6]));
+// console.log(mergeArrays(["a", "b"], ["c", "d"]));
+
+// Write a function to get the last element of an array. The function should take a single argument, which is the array.
+
+function getLastElement(arr) {
+  return arr[arr.length - 1];
 }
 
-console.log(mergeArrays([1, 2, 3], [4, 5, 6]));
-console.log(mergeArrays(["a", "b"], ["c", "d"]));
+console.log(getLastElement([1, 2, 3]));
+console.log(getLastElement(["a", "b", "c"]));
