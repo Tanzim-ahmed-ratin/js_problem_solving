@@ -167,9 +167,18 @@
 
 // Write a function to convert a string to lowercase. The function should take a single argument, which is the string to convert.
 
-function toLowerCase(str) {
-    return str.toLowerCase();
-  }
+// function toLowerCase(str) {
+//     return str.toLowerCase();
+//   }
   
-  console.log(toLowerCase("hablu programer")); // "hello world"
-  console.log(toLowerCase("tanzim"));
+//   console.log(toLowerCase("hablu programer")); // "hello world"
+//   console.log(toLowerCase("tanzim"));
+
+// Write a function to find the length of a string. The function should take a single argument, which is the string.
+
+function stringLength(str) {
+  return str.length;
+}
+
+console.log(stringLength("hello"));
+console.log(stringLength("world"));
